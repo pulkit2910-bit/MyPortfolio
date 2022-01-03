@@ -33,7 +33,7 @@ hr.dotted{
 }
 h1.h1-primary{
     font-family: 'Sacramento', cursive;
-    font-size: 5rem;
+    font-size: 4rem;
     color: #66BFBF;
 }
 h2.h2-primary{
@@ -50,7 +50,7 @@ h3.h3-primary{
 /* NAVIGATION BAR */
 #logo{
     font-family: "Montserrat", sans-serif;
-    font-size: 40px;
+    font-size: 33px;
     float: left;
     color: linear-gradient(red, pink, blue, violet);
     padding: 20px;
@@ -141,13 +141,20 @@ img.skills-img{
     height: 9rem;
     margin: 0%;
 }
-div.skill-row{
-    margin: 20px auto;
+div.progress {
+    margin: 1.5% auto;
     width: 75%;
     line-height: 2;
     display: flex;
     align-items: center;
-    padding: 30px;
+    height: 5%;
+}
+div.progress-bar {
+    font-size: 1rem;
+}
+div.progress:hover {
+    transform: scaleY(1.5);
+    transition-duration: 0.25s;
 }
 div.skill-row:hover{
     box-shadow: 0 0 20px rgb(130, 198, 221);
